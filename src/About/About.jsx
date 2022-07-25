@@ -1,5 +1,4 @@
 import React from 'react'
-import img from '../image/Thanh.png'
 import './About.css'
 import group5 from '../image/Group5.png'
 
@@ -7,7 +6,7 @@ export default function About() {
     return (
         <div className='about'>
             <div className='about_image'>
-                <img src={img} alt="img" />
+                
             </div>
             <div className='about_center'> <img src={group5} alt="" /></div>
             <div className='about_info'>

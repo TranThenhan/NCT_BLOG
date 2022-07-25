@@ -5,3 +5,47 @@
 .works_img{
     text-align: center;
 }
+
+.works_elements{
+    display: flex;
+    gap: 32px;
+    margin-top: 105px;
+    justify-content: center;
+}
+
+.works_item{
+ display: flex;
+ justify-content: center;
+width: 330px;
+height: 440px;
+
+
+border-radius: 8px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 37px;
+
+color: #FFFFFF;
+text-align: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.item1{
+    background: rgba(28, 28, 28, 0.5);
+    background-image: url('../image/Frame 21.png');
+}
+
+.item2{
+    background: rgba(50, 50, 50, 0.4);
+}
+
+.item3{
+    background: rgba(50, 50, 50, 0.4);
+}
+
+.item4{
+    background-image: url('../image/Frame 25.png');
+}

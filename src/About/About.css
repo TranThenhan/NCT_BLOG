@@ -5,9 +5,11 @@
 
 .about_image {
     display: flex;
-    width: 695px;
+    width: 686px;
     height: 388px;
     margin-top: 180px;
+    background-image: url('../image/Thanh.png');
+
 }
 
 .about_info{
