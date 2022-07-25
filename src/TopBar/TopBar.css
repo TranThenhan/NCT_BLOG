@@ -1,0 +1,65 @@
+.top {
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+    height: 90px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    align-items: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.topleft{
+    flex: 2;
+width: 63px;
+height: 37px;
+left: 99px;
+top: 26px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 37px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+color: #000000;
+}
+
+.topcenter{
+    flex: 8;
+}
+
+.topright{
+    flex: 1;
+}
+
+.topList{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 76px;
+
+}
+
+.topListItem{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+
+color: #000000;
+cursor: pointer;
+}
