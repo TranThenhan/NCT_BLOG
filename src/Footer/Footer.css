@@ -10,6 +10,7 @@
 
 span > b {
   font-size: 22px;
+  font-family: 'Playfair Display';
 }
 
 .contact-info {
@@ -40,7 +41,8 @@ span > b {
   background-color: #000;
   border-radius: 100%;
   padding: 5px;
-  width: 16px;
+  width: 16px;  
+  cursor: pointer;
 }
 
 .footer-2 {
@@ -49,7 +51,7 @@ span > b {
 }
 
 input[type="submit"] {
-  margin-top: 5vw;
+  margin-top: 4.5vw;
   width: 22vw;
   display: block;
   border: 1px solid #434343;
@@ -57,4 +59,5 @@ input[type="submit"] {
   font-family: "Montserrat";
   padding: 1vw 4vw;
   color: #434343;
+  cursor: pointer;
 }

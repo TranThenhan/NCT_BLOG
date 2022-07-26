@@ -1,4 +1,6 @@
 import React from "react";
+import { TextField } from "@mui/material";
+
 import "./Footer.css";
 
 export default function Footer() {
@@ -32,11 +34,14 @@ export default function Footer() {
           <span>
             <b>Ask me anything</b>
           </span>
-          <input
-            type="submit"
-            value="SEND MESSAGE"
-            className="ask-button"
-          />
+          <form>
+            <TextField label="Full Name" variant="standard" fullWidth margin="normal" InputLabelProps={{ style: { fontFamily: "Montserrat" } }}/>
+            <br />
+            <TextField label="Your Email" variant="standard" fullWidth margin="normal" InputLabelProps={{ style: { fontFamily: "Montserrat"} }}/>
+            <br />
+            <TextField label="Your Message" variant="standard" fullWidth margin="normal"  InputLabelProps={{ style: { fontFamily: "Montserrat" } }}/>
+            <input type="submit" value="SEND MESSAGE" className="ask-button" />
+          </form>
         </div>
       </div>
       <div className="footer-2">
