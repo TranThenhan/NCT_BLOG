@@ -5,6 +5,7 @@ import TopBar from './TopBar/TopBar';
 import Works from './Works/Works'
 import Event from './Events/Event';
 import Footer from './Footer/Footer';
+import Blog from './Blog/Blog';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Works />
       <Event />
+      <Blog />
       <Footer />
     </>
   );
