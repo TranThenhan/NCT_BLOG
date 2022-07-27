@@ -35,7 +35,7 @@ flex-direction: column;
 
 .item1{
     background: rgba(28, 28, 28, 0.5);
-    background-image: url('../image/Frame 21.png');
+    background-image: url('../../../image/Frame 21.png');
 }
 
 .item2{
@@ -47,5 +47,5 @@ flex-direction: column;
 }
 
 .item4{
-    background-image: url('../image/Frame 25.png');
+    background-image: url('../../../image/Frame 25.png');
 }

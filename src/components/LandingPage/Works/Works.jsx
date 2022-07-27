@@ -1,6 +1,6 @@
 import React from 'react'
 import './Works.css'
-import Group2 from '../image/Group2.png'
+import Group2 from '../../../image/Group2.png'
 
 export default function Works() {
   return (
