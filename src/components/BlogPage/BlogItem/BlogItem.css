@@ -1,0 +1,43 @@
+.item {
+    margin-bottom: 50px;
+}
+
+.item-img {
+    position: relative;
+}
+
+.item-img-date {
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    transform: translateY(45%);
+    width: 25%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Montserrat';
+    color: white;
+    background-color: #434343;
+}
+
+.item-img > img {
+    width: 100%;
+    height: auto;
+}
+
+.item-text {
+    margin-top: 28px;
+}
+
+.item-text-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Playfair Display';
+}
+
+.item-text-content {
+    font-size: 12px;
+    font-family: 'Montserrat';
+    text-align: justify;
+}
