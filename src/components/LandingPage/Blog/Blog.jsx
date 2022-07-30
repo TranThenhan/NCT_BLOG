@@ -9,7 +9,7 @@ export default function Blog() {
                 <div className='blog_image'></div>
                 <div className='blog_box'><b>Lorem Ipsum is simply dummy text of the printing and typesetting</b> </div>
                 <div className='blog_view'>
-                    <div ><i class="fa-solid fa-eye"></i> 180</div>
+                    <div ><i className="fa-solid fa-eye"></i> 180</div>
                     <div>Jun 14, 2022</div>
                 </div>
                 <div className='blog_text'>

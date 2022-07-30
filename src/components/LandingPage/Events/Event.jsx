@@ -1,7 +1,7 @@
 import React from 'react'
 import './Event.css'
-import Frame4 from '../image/Frame 4.png'
-import Frame29 from '../image/Frame 29.png'
+import Frame4 from '../../../image/Frame 4.png'
+import Frame29 from '../../../image/Frame 29.png'
 
 export default function Event() {
     return (

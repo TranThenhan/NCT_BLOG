@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import group5 from '../image/Group5.png'
+import group5 from '../../../image/Group5.png'
 
 export default function About() {
     return (
