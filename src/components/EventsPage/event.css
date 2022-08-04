@@ -1,12 +1,12 @@
-.blog-title {
+.events-page-title {
   text-align: center;
 }
 
-.blog-title > img {
+.events-page-title > img {
   transform: rotate(90deg);
 }
 
-.blog-arrow {
+.events-page-arrow {
   display: flex;
   gap: 24px;
   margin-bottom: 24px;
@@ -14,7 +14,7 @@
   margin-right: 5vw;
 }
 
-.blog-arrow > div {
+.events-page-arrow > div {
   width: 36px;
   height: 36px;
   text-align: center;
@@ -48,7 +48,7 @@
   -webkit-transform: rotate(-135deg);
 }
 
-.blog-content {
+.events-page-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -56,17 +56,17 @@
   margin-bottom: 5vw;
 }
 
-.blog-content > * {
+.events-page-content > * {
   max-width: 420px;
 }
 
 @media only screen and (max-width: 768px) {
-  .blog-content {
+  .events-page-content {
     flex-direction: row;
     justify-content: center;
   }
 
-  .blog-content > * {
+  .events-page-content > * {
     width: 90%;
   }
 }

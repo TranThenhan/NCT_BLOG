@@ -5,6 +5,7 @@ import Footer from "./components/Footer/Footer";
 
 import LandingPage from "./components/LandingPage/LandingPage";
 import BlogPage from "./components/BlogPage/BlogPage";
+import EventsPage from "./components/EventsPage/EventsPage";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />}/>
         <Route path="/blog" element={<BlogPage />}/>
+        <Route path="/events" element={<EventsPage />}/>
       </Routes>
       <Footer/>
     </>
