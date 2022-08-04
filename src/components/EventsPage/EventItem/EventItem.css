@@ -1,0 +1,51 @@
+.event-item {
+    margin-bottom: 50px;
+}
+
+.event-item-img {
+    position: relative;
+}
+
+.event-item-img-date {
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    transform: translateY(45%);
+    width: 25%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Montserrat';
+    color: white;
+    background-color: #434343;
+}
+
+.event-item-img > img {
+    width: 100%;
+    height: auto;
+}
+
+.event-item-text {
+    margin-top: 28px;
+}
+
+.event-item-text-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Playfair Display';
+}
+
+.event-item-text-content {
+    font-size: 14px;
+    font-family: 'Montserrat';
+    text-align: justify;
+}
+
+.event-item-text-content i {
+    width: 34px;
+}
+
+.event-item-text-content > div:nth-child(2) {
+    margin: 10px 0;
+}
