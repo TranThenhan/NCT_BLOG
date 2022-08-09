@@ -1,0 +1,44 @@
+.about-page-title {
+  font-size: 150px;
+  text-align: center;
+  font-family: "Playfair Display";
+  color: #e3e3e3;
+  margin-bottom: 5vw;
+  font-weight: bold;
+}
+
+.about-page-content > * {
+  margin-bottom: 5vw;
+}
+
+.about-page-content-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3vw;
+  gap: 1vw;
+}
+
+.about-page-content-title > div {
+  content: "";
+  width: 50px;
+  height: 24px;
+  border-bottom: 1px solid black;
+}
+
+.about-page-content-title > span {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Playfair Display";
+}
+
+.about-page-content-list li {
+    list-style: none;
+    font-size: 14px;
+}
+
+.about-page-content-list li:before {
+  content: "·";
+  font-size: 35px;
+  vertical-align: middle;
+  line-height: 14px;
+}
